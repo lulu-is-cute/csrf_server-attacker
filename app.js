@@ -2,7 +2,7 @@
 let express = require("express")
 let cors = require("cors")
 
-let port = 80
+let port = process.env.PORT || 3000
 
 //instances
 let app = express()
