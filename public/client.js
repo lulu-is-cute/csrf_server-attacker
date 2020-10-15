@@ -30,7 +30,7 @@ $(() => {
 
         $.ajax({
             url: "http://localhost/save",
-            data: {data: "DD is a giant load"},
+            data: {data: "DD is a giant loaf"},
             error: () => {
                 statusNode.text("Processed attack")
             }
