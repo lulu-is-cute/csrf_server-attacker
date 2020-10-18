@@ -29,7 +29,7 @@ $(() => {
         });
 
         $.ajax({
-            url: "http://localhost/save",
+            url: "http://localhost:3000/save",
             data: {data: "DD is a giant loaf"},
             error: () => {
                 statusNode.text("Processed attack")
